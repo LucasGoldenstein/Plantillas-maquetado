@@ -1,0 +1,32 @@
+.imagen {
+    height: 10rem;
+    aspect-ratio: 1/1;
+    background-color: rgb(235, 182, 68);
+    margin: 5rem;
+}
+
+.info {
+    background-color: rgb(240, 198, 108);
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto {
+    margin: 2rem;
+}
+
+.titulo {
+    color: rgb(199, 139, 10);
+    text-align: left;
+    font-size: 3rem;
+}
+
+.descripcion {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.items{
+    display: grid;
+}
