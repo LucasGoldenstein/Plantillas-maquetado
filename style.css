@@ -28,5 +28,55 @@
 }
 
 .items{
+
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.item{
+  width: 10rem;
+  aspect-ratio: 1/1;
+}
+.item.azul{
+    background-color: lightblue;
+}
+
+.item.rojo{
+    background-color: rgb(255, 126, 126);
+}
+
+.item.naranja{
+background-color:rgb(240, 198, 108);
+}
+
+.arriba{
+    width: 100%;
+    height: 15%;
+}
+
+.arriba.azul{
+background-color:  rgb(98, 197, 230)
+}
+
+.arriba.rojo{
+    background-color: rgb(241, 60, 60);
+}
+
+.arriba.naranja{
+    background-color: rgb(235, 182, 68);
+}
+
+.cuadrado{
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+}
+
+.cuadrado-container{
+    display: flex;
+    justify-content: center;
 }
